@@ -1,0 +1,120 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+  padding: 0;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+.c-site-header{
+  background: #52f6ff;
+  padding: 30px;
+  text-align: center;
+  margin: auto;
+  margin: 0;
+  color: blue;
+  font-family: 'Century Gothic',sans-serif;
+  height: 300px;
+}
+
+.c-site-header-img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.c-site-header h1{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.c-site-header-h5{
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-weight: 300;
+}
+
+.c-site-header-p{
+  text-align: justify;
+}
+
+.c-site-main{
+  height: 700px;
+  background: yellow;
+}
+.c-site-main h3{
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding-top: 40px;
+}
+.fa {
+  padding: 30px;
+  font-size: 50px;
+  width: 30px;
+  text-align: justify;
+  text-decoration: none;
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+  font-size: 10px;
+  font-weight: 600;
+  
+}
+.c-site-main li{
+  margin: 3px;
+  list-style: none;
+  font-size: 15px;
+}
+
+.c-site-main a{
+  color: blue;
+  text-decoration: none;
+  margin: 5px;
+  list-style: none;
+  font-size: 20px;
+}
+
+.cart{
+  margin: 5px;
+ 
+}
+.form-control{
+  margin: 10px;
+  width: 300px;
+  height: 100px;
+}
+.c-site-footer{
+  height: 150px;
+  background: #ff7e00;
+}
+.c-site-footer li {
+ 
+  text-decoration: none;
+  display: inline-block;
+  
+  list-style: none;
+  font-size: 60px;
+}
+.c-site-footer li a{
+   color: white;
+  text-decoration: none;
+  list-style: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.c-site-footer li a:hover{
+ color:#52f6ff;
+}
